@@ -1,0 +1,113 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(170, 170, 249);
+    padding: 30px;
+}
+p {
+    margin-left: 2px;
+    padding-right: 2px;
+}
+.France{ 
+    background: -webkit-linear-gradient(90deg,blue, white, red);
+    background: linear-gradient(90deg,blue, white, red);
+}
+h1{
+    text-align: center;
+}
+a{
+    font-size: 14px;
+    font-family: Arial black;
+    background: none;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.Bordelaise{
+    background-color: #6d071a;
+}
+.Lillois{
+    background: -webkit-linear-gradient(90deg,white, white, red);
+    background: linear-gradient(165deg, red, white,white); 
+}
+.Parisien{
+    background: -webkit-linear-gradient(160deg, red, blue);
+    background: linear-gradient(30deg, blue,red); 
+}
+
+img {
+    border-radius: 6px;
+    display: flex;
+    
+}
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    background-color: #333;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+nav ul li ul {
+    display: none;
+    position:absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    min-width: 200px;
+    flex-direction: column;
+}
+
+nav ul li:hover ul {
+    display: flex;
+}
+
+nav ul li ul li {
+    width: 100%;
+}
+
+nav ul li ul li a:hover {
+    background-color: #666;
+}
+span {
+font-style: italic;
+}
+.patrimoine{
+    color: white;
+}
+.container {
+ display: flex;
+ justify-content: center;
+ gap: 5px;
+}
+.Wok {
+    width: 25%;
+    text-align: center;
+}
+.Fraise{
+text-align: center;
+}
+.Chien {
+    color: white;
+}
