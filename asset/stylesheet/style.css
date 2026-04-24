@@ -1,9 +1,5 @@
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(170, 170, 249);
-    padding: 30px;
+header {
+    padding-bottom: 10px;
 }
 p {
     margin-left: 2px;
@@ -37,7 +33,7 @@ a{
 }
 
 img {
-    border-radius: 6px;
+    border-radius: 3px;
     display: flex;
     
 }
