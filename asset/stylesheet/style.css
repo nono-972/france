@@ -101,9 +101,32 @@ font-style: italic;
     width: 25%;
     text-align: center;
 }
-.Fraise{
-text-align: center;
-}
+
 .Chien {
     color: white;
+}
+
+.creole {
+    margin: auto;
+   font-family: "Google Sans Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
+}
+
+.color {
+    color:red ;
+}
+
+.forêt{
+    color: green;
+}
+
+.Bèlè{
+    color: yellow;
 }
