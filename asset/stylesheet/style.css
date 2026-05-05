@@ -117,16 +117,26 @@ font-style: italic;
     "wdth" 100,
     "GRAD" 0,
     "ROND" 0;
+    width: 45%;
+    font-size: 34px;
 }
 
-.color {
-    color:red ;
+#traduction_site_web{
+    text-align: center;
 }
 
-.forêt{
-    color: green;
+span{
+    display: none;
 }
 
-.Bèlè{
-    color: yellow;
+iframe{
+    display: none;
+}
+
+#Lafayette{
+    width: 120%;
+    margin-left: 80px;
+}
+.After{
+width: 30%;
 }
