@@ -102,10 +102,6 @@ font-style: italic;
     text-align: center;
 }
 
-.Chien {
-    color: white;
-}
-
 .creole {
     margin: auto;
    font-family: "Google Sans Flex", sans-serif;
@@ -139,4 +135,9 @@ iframe{
 }
 .After{
 width: 30%;
+}
+
+.name{
+    margin-top: -50px;
+    margin-right: -100px;
 }
