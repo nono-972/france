@@ -2,14 +2,22 @@ section {
     text-align: center;
 }
 
-ul{
+#parc ul{
     border: 3px solid black;
     border-radius: 20px;
-    width: 50%;
-    display: flex;
-     align-self: center;
+    width: 25%;
+    padding: 30px;
 }
 
-ul li {
-    display: none;
+#parc ul li {
+    list-style: none;
 }
+
+#parc{
+    margin-bottom: 10px;
+    display: grid;
+  grid-column: 1/4;
+  grid-row: 1/4;
+}
+
+
