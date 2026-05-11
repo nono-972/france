@@ -2,22 +2,38 @@ section {
     text-align: center;
 }
 
-#parc ul{
+.parc ul{
     border: 3px solid black;
     border-radius: 20px;
-    width: 25%;
+    width: 320px;
+    height: 300px;
     padding: 30px;
 }
 
-#parc ul li {
+.parc ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.offres {
+    display: flex;
+    flex-direction: row;
+}
+
+.parc{
+display: flex;
+flex-direction: row;
+margin: auto;
+
+}
+svg{
+    color: black;
+  margin-right: 5px;  
+  width: 18px;
+}
+
+button .navbar-toggler {
+    border-radius: none;
+    box-shadow: none;
     list-style: none;
 }
-
-#parc{
-    margin-bottom: 10px;
-    display: grid;
-  grid-column: 1/4;
-  grid-row: 1/4;
-}
-
-

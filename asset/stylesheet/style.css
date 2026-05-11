@@ -141,3 +141,9 @@ width: 30%;
     margin-top: -50px;
     margin-right: -100px;
 }
+
+svg{
+    color: black;
+  margin-right: 5px;  
+  width: 18px;
+}
