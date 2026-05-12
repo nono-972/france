@@ -5,8 +5,8 @@ section {
 .parc ul{
     border: 3px solid black;
     border-radius: 20px;
-    width: 320px;
-    height: 300px;
+    width: 350px;
+    height: 320px;
     padding: 30px;
 }
 
@@ -36,4 +36,51 @@ button .navbar-toggler {
     border-radius: none;
     box-shadow: none;
     list-style: none;
+}
+
+label {
+  display: block;
+  font:
+    1.5rem "Fira Sans",
+    sans-serif;
+}
+
+input, label {
+  margin: 0.6rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+}
+
+input {
+    padding-right: 80px;
+}
+
+form.none {
+    margin-top: 7rem;
+    margin-left: 32rem;
+    padding: 40px;
+    border: solid black 1px ;
+    width: 470px;
+    height: 300px;
+    border-radius: 5%;
+    background-color: beige;
+
+}
+
+button.envoyer {
+    margin: 60px;
+    padding-bottom: 5px;
+}
+
+#météore {
+    background-color:#004070;
+}
+
+#météore img {
+    border:solid 4px red;
+}
+
+.fr {
+    color: yellow;
 }
